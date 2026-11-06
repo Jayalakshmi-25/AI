@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['cardboard', 'package']
+
+roboflow:
+  workspace: ammar-s
+  project: packages-detection
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ammar-s/packages-detection/dataset/6
